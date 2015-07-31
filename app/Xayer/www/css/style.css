@@ -1,0 +1,47 @@
+body
+{
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.wrapper
+{
+    width: 930px;
+    margin: 0 auto;
+}
+
+.container
+{
+    background-color: #F9F9F9;
+    padding: 10px;
+}
+
+th
+{
+    text-align:left;
+}
+
+/* Validation boxes */
+.msg
+{
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.msg.error
+{
+    background-color: darkred;
+    color: #FFF;
+}
+
+.msg.success
+{
+    background-color: darkgreen;
+    color: #FFF;
+}
+
+/* Span error */
+span.error
+{
+    color: darkred;
+}
